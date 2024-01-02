@@ -13,4 +13,8 @@ def create_app(test_config=None):
     except OSError:
         pass
 
-    
+    # Get the secret key from the configuration file
+    app.secret_key = app.config["SECRET_KEY"]
+
+    # Load the environment variables
+    load_dotenv()
