@@ -28,3 +28,11 @@ def create_app(test_config=None):
         app.config.from_object("instance.config.ProductionConfig")
     else:
         print("FLASK_ENV environment variable is not set!")
+
+    # Register blueprints withinn app context
+    from app.main.routes import main_bp
+
+    # Register the main blueprint
+    app.register_blueprint(main_bp)
+
+    return app
