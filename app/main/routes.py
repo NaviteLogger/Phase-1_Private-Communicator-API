@@ -1,4 +1,4 @@
-from flask import Blueprint
+from flask import Blueprint, jsonify
 import secrets
 
 
@@ -10,7 +10,7 @@ def index():
     return "Hello! Welcome to the most secure comunication app in the world!"
 
 
+# This route will be used to connect to the server to see if the server is up
 @main_bp.route("/connect-to-server", methods=["POST"])
 def connect_to_server():
-    # Create a unique conversation_id for the client
-    conversation_id = secrets.token_hex(32)
+    return jsonify({"status": "success", "message": "The server is up and running!"})
