@@ -14,3 +14,5 @@ def index():
 @main_bp.route("/connect-to-server", methods=["POST"])
 def connect_to_server():
     return jsonify({"status": "success", "message": "The server is up and running!"})
+
+
