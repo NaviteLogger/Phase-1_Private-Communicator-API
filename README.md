@@ -2,21 +2,42 @@
 Encryption-protected console messaging app
 
 # Table of Contents
-1. [Introduction](#introduction)
-2. [Prerequisites](#prerequisites)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Contributing](#contributing)
-6. [License](#license)
+- [Private-Console-Communicator](#private-console-communicator)
+    - [Introduction](#introduction)
+    - [Features](#features)
+    - [Future Features](#future-features)
+    - [Installation](#installation)
+        - [Prerequisites](#prerequisites)
+        - [Setup](#setup)
+    - [Usage](#usage)
+    - [Documentation](#documentation)
+    - [Contributing](#contributing)
+    - [Authors](#authors)
+    - [License](#license)
 
 # Introduction
+
 This API Console Communicator is a simple console messaging app that allows two users to communicate with each other. The API endpoints accept HTTP request and return JSON responses. The detailed documentation of the API endpoints can be found [here]().
 
-# Prerequisites
+# Features
+
+- Accountless messaging
+- End-to-end encryption
+- No message history
+
+# Future Features
+
+- User accounts
+
+# Installation
+
+## Prerequisites
+
 - [Python 3.6+](https://www.python.org/downloads/)
 - [pip](https://pip.pypa.io/en/stable/installing/)
 
-# Installation
+## Setup
+
 1. Clone the repository
 ```
 git clone https://github.com/NaviteLogger/Private-Console-Communicator.git
@@ -36,11 +57,21 @@ pip install -r requirements.txt
 
 1. Start the server
 ```
-python server.py
+python app.py
 ```
 
+# Documentation
+
+The detailed documentation of the API endpoints can be found [here]().
+
 # Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+# Authors
+
+- [NaviteLogger](https://github.com/NaviteLogger)
+
 # License
+
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
