@@ -1,8 +1,8 @@
-# Private-Console-Communicator
-Encryption-protected console messaging app
+# Private-Communicator
+Encryption-protected messaging app
 
 # Table of Contents
-- [Private-Console-Communicator](#private-console-communicator)
+- [Private-Communicator](#private-communicator)
     - [Introduction](#introduction)
     - [Features](#features)
     - [Future Features](#future-features)
@@ -17,7 +17,7 @@ Encryption-protected console messaging app
 
 # Introduction
 
-This API Console Communicator is a simple console messaging app that allows two users to communicate with each other. The API endpoints accept HTTP request and return JSON responses. The detailed documentation of the API endpoints can be found [here]().
+This API Communicator is a simple messaging app that allows two users to communicate with each other. The API endpoints accept HTTP request and return JSON responses. The detailed documentation of the API endpoints can be found [here]().
 
 # Features
 
