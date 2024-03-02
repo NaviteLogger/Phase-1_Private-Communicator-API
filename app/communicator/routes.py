@@ -1,6 +1,5 @@
 from flask import Blueprint, request, jsonify
-
-communicator_bp = Blueprint("communicator", __name__)
+from . import communicator_bp
 
 
 @communicator_bp.route("/communicator", methods=["POST"])
