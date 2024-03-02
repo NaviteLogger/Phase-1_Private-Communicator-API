@@ -1,8 +1,8 @@
-# Private-Communicator
+# Private-Communicator-API
 Encryption-protected messaging app
 
 ##  Table of Contents
-- [Private-Communicator](#private-communicator)
+- [Private-Communicator](#private-communicator-api)
     - [Introduction](#introduction)
     - [Features](#features)
     - [Future Features](#future-features)
