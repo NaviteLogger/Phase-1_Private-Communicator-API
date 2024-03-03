@@ -1,4 +1,4 @@
-from flask import Blueprint, request, jsonify
+from flask import request, jsonify
 from . import communicator_bp
 
 
